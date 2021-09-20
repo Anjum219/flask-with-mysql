@@ -1,5 +1,5 @@
 # Flask with mysql project
-In this project we are gonna build a super simple app commit bt commit, to learn the basic of flask with mysql.
+In this project we are gonna build a super simple app commit by commit, to learn the basic of flask with mysql.
 The project is conducted on mac M1.
 
 ### Prerequisite
