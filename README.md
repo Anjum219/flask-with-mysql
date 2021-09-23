@@ -46,3 +46,17 @@ Now create a table in `flaskapp` that has two columns `user` and `email`-
 ```sql
 CREATE TABLE users(name varchar(20), email varchar(40));
 ```
+
+### Configure database
+
+Create a file named `db.yaml` and store the following information
+```yaml
+mysql_host: 'localhost'
+mysql_user : 'root'
+mysql_password : 
+mysql_db : 'flaskApp'
+```
+Put your password in the mysql_password property. We will need to keep this file hidden. Add the file in `.gitognore` so that it doesn't get pushed to your git repository.
+```gitignore
+/db.yaml
+```
